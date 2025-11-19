@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Redis Session Check</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .redis-data {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+
+        pre {
+            background-color: #282c34;
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+
+        h3 {
+            color: #dc3545;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+            a:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <h2>🔴 Redis Session Data Inspector</h2>
+
+    <div class="redis-data">
+        <h3>Session ID (Redis Key):</h3>
+        <pre>@ViewBag.SessionId</pre>
+    </div>
+
+    <div class="redis-data">
+        <h3>User Session Object (JSON in Redis):</h3>
+        <pre>@ViewBag.SessionJson</pre>
+    </div>
+
+    <div class="redis-data">
+        <h3>Individual Session Values:</h3>
+        <p><strong>User ID:</strong> @ViewBag.UserId</p>
+        <p><strong>Username:</strong> @ViewBag.UserName</p>
+    </div>
+
+    <div class="redis-data">
+        <h3>How It Works:</h3>
+        <ol>
+            <li>When you login, user data is serialized to JSON and stored in Redis</li>
+            <li>Redis key format: "SessionDemo_" + SessionId</li>
+            <li>On each request, ASP.NET Core retrieves session data from Redis</li>
+            <li>Session expires after 30 minutes of inactivity (configurable)</li>
+            <li>Redis stores this in memory for ultra-fast access</li>
+        </ol>
+    </div>
+
+    <a href="/Account/Dashboard">← Back to Dashboard</a>
+</body>
+</html>

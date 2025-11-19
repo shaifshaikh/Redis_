@@ -1,0 +1,90 @@
+﻿@model RedisSessionDemo.Models.UserSession
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard - Redis Session Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .session-info {
+            background-color: #e7f3ff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+            .session-info h3 {
+                margin-top: 0;
+                color: #0066cc;
+            }
+
+        .session-item {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border-left: 4px solid #0066cc;
+        }
+
+            .session-item strong {
+                display: inline-block;
+                width: 120px;
+            }
+
+        button {
+            background-color: #dc3545;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+            button:hover {
+                background-color: #c82333;
+            }
+
+        .check-btn {
+            background-color: #28a745;
+        }
+
+            .check-btn:hover {
+                background-color: #218838;
+            }
+    </style>
+</head>
+<body>
+    <h2>Welcome to Dashboard!</h2>
+
+    <div class="session-info">
+        <h3>🔴 Data Retrieved from Redis Session:</h3>
+        <div class="session-item">
+            <strong>User ID:</strong> @Model.UserId
+        </div>
+        <div class="session-item">
+            <strong>Username:</strong> @Model.UserName
+        </div>
+        <div class="session-item">
+            <strong>User Type:</strong> @Model.UserType
+        </div>
+        <div class="session-item">
+            <strong>Role:</strong> @Model.Role
+        </div>
+        <div class="session-item">
+            <strong>Session ID:</strong> @Context.Session.Id
+        </div>
+    </div>
+
+    <p><em>This data is stored in Redis and retrieved on each request without hitting the database!</em></p>
+
+    <div style="margin-top: 30px;">
+        <a href="/Account/CheckRedis"><button class="check-btn">Check Raw Redis Data</button></a>
+        <a href="/Account/Logout"><button>Logout (Clear Redis Session)</button></a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿@model RedisSessionDemo.Models.LoginViewModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - Redis Session Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 400px; margin: 50px auto; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], input[type="password"] { width: 100%; padding: 8px; box-sizing: border-box; }
+        button { background-color: #007bff; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        button:hover { background-color: #0056b3; }
+        .error { color: red; margin-top: 10px; }
+        .success { color: green; margin-bottom: 15px; }
+        .info { background-color: #f0f0f0; padding: 15px; margin-bottom: 20px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h2>Redis Session Demo - Login</h2>
+    
+    <div class="info">
+        <strong>Test Credentials:</strong><br/>
+        Username: admin | Password: admin123<br/>
+        Username: john | Password: john123<br/>
+        Username: sarah | Password: sarah123
+    </div>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="success">@TempData["Message"]</div>
+    }
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="error">@ViewBag.Error</div>
+    }
+
+    <form method="post">
+        <div class="form-group">
+            <label>Username:</label>
+            <input type="text" name="Username" required />
+        </div>
+        <div class="form-group">
+            <label>Password:</label>
+            <input type="password" name="Password" required />
+        </div>
+        <button type="submit">Login</button>
+    </form>
+
+    <p style="margin-top: 20px;">
+        <a href="/Account/CheckRedis">Check Redis Session Data</a>
+    </p>
+</body>
+</html>

@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|c:\\users\\shaik\\onedrive\\desktop\\.net\\redis\\redis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|solutionrelative:redis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|c:\\users\\shaik\\onedrive\\desktop\\.net\\redis\\redis\\views\\account\\checkredis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|solutionrelative:redis\\views\\account\\checkredis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|c:\\users\\shaik\\onedrive\\desktop\\.net\\redis\\redis\\views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|solutionrelative:redis\\views\\account\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|c:\\users\\shaik\\onedrive\\desktop\\.net\\redis\\redis\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|solutionrelative:redis\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|c:\\users\\shaik\\onedrive\\desktop\\.net\\redis\\redis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|solutionrelative:redis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|c:\\users\\shaik\\onedrive\\desktop\\.net\\redis\\redis\\models\\redissesssiondemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|solutionrelative:redis\\models\\redissesssiondemo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|c:\\users\\shaik\\onedrive\\desktop\\.net\\redis\\redis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D2EA78C7-44BC-4CB9-895F-D512C545A8CC}|Redis\\Redis.csproj|solutionrelative:redis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckRedis.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Views\\Account\\CheckRedis.cshtml",
+              "RelativeDocumentMoniker": "Redis\\Views\\Account\\CheckRedis.cshtml",
+              "ToolTip": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Views\\Account\\CheckRedis.cshtml",
+              "RelativeToolTip": "Redis\\Views\\Account\\CheckRedis.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAcwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T18:40:37.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Views\\Account\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Redis\\Views\\Account\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Views\\Account\\Dashboard.cshtml",
+              "RelativeToolTip": "Redis\\Views\\Account\\Dashboard.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T18:39:50.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Redis\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Redis\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-19T18:30:18.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Redis\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Redis\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAmwFQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:29:31.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RedisSesssionDemo.cs",
+              "DocumentMoniker": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Models\\RedisSesssionDemo.cs",
+              "RelativeDocumentMoniker": "Redis\\Models\\RedisSesssionDemo.cs",
+              "ToolTip": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Models\\RedisSesssionDemo.cs",
+              "RelativeToolTip": "Redis\\Models\\RedisSesssionDemo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T18:28:39.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Program.cs",
+              "RelativeDocumentMoniker": "Redis\\Program.cs",
+              "ToolTip": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\Program.cs",
+              "RelativeToolTip": "Redis\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCQAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T17:04:17.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\appsettings.json",
+              "RelativeDocumentMoniker": "Redis\\appsettings.json",
+              "ToolTip": "C:\\Users\\shaik\\OneDrive\\Desktop\\.NET\\Redis\\Redis\\appsettings.json",
+              "RelativeToolTip": "Redis\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-19T17:03:21.876Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
